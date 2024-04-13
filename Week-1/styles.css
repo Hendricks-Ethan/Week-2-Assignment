@@ -1,0 +1,43 @@
+/* This going to be my styles sheet. Everything element that I am adding any kind of style will be originated from this page.*/
+
+/* These are all my Element Selectors*/
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(237, 252, 220)
+}
+
+body {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+
+
+/* These are my Custom Class Selectors*/
+
+.link-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-text {
+    background-color: rgb(242, 248, 225);
+    border: solid rgb(70, 139, 70);
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+
+
+/* These are my Custom ID Selectors*/
+
+#images-page2

@@ -1,8 +1,12 @@
-/* This going to be my styles sheet. Everything element that I am adding any kind of style will be originated from this page.*/
+/* This is my external styles sheet--*/
 
-/*---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
 
-/* These are all my Element Selectors*/
+/* These are all my Element Selectors--*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
 
 html {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -24,14 +28,25 @@ img {
     float: right;
 }
 
-/*-------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
 
-/* These are my Custom Class Selectors*/
+/* These are my Custom Class Selectors--*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
 
 .link-text {
     text-align: center;
     margin-top: 50px;
 }
+
+.container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+/* For index.html--*/
 
 .main-text {
     background-color: rgb(242, 248, 225);
@@ -43,10 +58,7 @@ img {
     margin: auto;
 }
 
-.container {
-    display: flex;
-    margin-bottom: 50px;
-}
+/* For page2.html--*/
 
 .service {
     padding: 25px;
@@ -74,13 +86,26 @@ img {
     text-align: left;
 }
 
+/* For page4.html--*/
+
 .form-page {
     margin-left: 150px;
 }
 
-/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
 
 /* These are my Custom ID Selectors*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
+
+#image-border {
+    border: solid rgb(70, 139, 70);
+    border-radius: 10px;
+}
+
+/* Selectors for page1.html--*/
 
 #first-content {
     height: 375px;
@@ -99,12 +124,52 @@ img {
     margin-top: 50px;
 }
 
-#image-border {
-    border: solid rgb(70, 139, 70);
-    border-radius: 10px;
-}
+/* For page3.html--*/
 
 #random-text {
     margin-left: 50px;
     padding: 120px 0px 120px 50px;
+}
+
+/* For page4.html--*/
+
+#form-question-1 {
+    background-color: rgb(135, 163, 135);
+    border-radius: 10px;
+    width: 27%;
+    padding: 10px 0px 10px 50px;
+    margin-bottom: 50px;
+}
+
+#form-question-2 {
+    background-color: rgb(135, 163, 135);
+    border-radius: 10px;
+    width: 22%;
+    padding: 10px 0px 10px 50px;
+    margin-bottom: 50px;
+}
+
+#form-question-3 {
+    background-color: rgb(135, 163, 135);
+    border-radius: 10px;
+    width: 18%;
+    padding: 10px 0px 10px 50px;
+    margin-bottom: 50px;
+}
+
+#form-question-4 {
+    background-color: rgb(135, 163, 135);
+    border-radius: 10px;
+    width: 40%;
+    padding: 10px 0px 10px 50px;
+    margin-bottom: 50px;
+}
+
+#submit {
+    margin: auto;
+    text-align: center;
+    border: solid rgb(135, 163, 135);
+    border-radius: 10px;
+    width: 5%;
+    padding: 10px 0px;
 }
