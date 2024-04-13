@@ -1,0 +1,110 @@
+/* This going to be my styles sheet. Everything element that I am adding any kind of style will be originated from this page.*/
+
+/*---------------------------------------------------------------------*/
+
+/* These are all my Element Selectors*/
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(237, 252, 220)
+}
+
+body {
+    margin: 75px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 75px;
+    color:rgb(70, 139, 70);
+}
+
+img {
+    float: right;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* These are my Custom Class Selectors*/
+
+.link-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-text {
+    background-color: rgb(242, 248, 225);
+    border: solid rgb(70, 139, 70);
+    border-radius: 10px;
+    padding: 25px 25px;
+    width: 50%;
+    text-justify: center;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.service {
+    padding: 25px;
+    background-color: rgb(242, 248, 225);
+    border: solid rgb(70, 139, 70);
+    border-radius: 10px;
+    margin: 0px 25px;
+}
+
+.service-text {
+    padding: 60px 5px;
+    background-color: rgb(242, 248, 225);
+    border: solid rgb(70, 139, 70);
+    border-radius: 10px;
+    margin: 0px 25px;
+    text-align: center;
+}
+
+.building-text {
+    padding: 50px;
+    background-color: rgb(242, 248, 225);
+    border: solid rgb(70, 139, 70);
+    border-radius: 10px;
+    margin: 0px 25px;
+    text-align: left;
+}
+
+.form-page {
+    margin-left: 150px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/* These are my Custom ID Selectors*/
+
+#first-content {
+    height: 375px;
+    padding: 25px 25px 25px 200px;
+    background-color: rgb(242, 248, 225);
+    border: solid rgb(70, 139, 70);
+    border-radius: 10px;
+}
+
+#second-content {
+    height: 290px;
+    padding: 25px 25px 25px 200px;
+    background-color: rgb(242, 248, 225);
+    border: solid rgb(70, 139, 70);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#image-border {
+    border: solid rgb(70, 139, 70);
+    border-radius: 10px;
+}
+
+#random-text {
+    margin-left: 50px;
+    padding: 120px 0px 120px 50px;
+}
